@@ -4,8 +4,8 @@ from alpaca.data.timeframe import TimeFrame
 from datetime import datetime
 import pandas as pd
 
-API_KEY = "PK5K5H42ARNEUKGRSVPSQOENUW"
-SECRET_KEY = "8nvXeRvdGGdFY2EA565Y2CSq1rfLJYbf8FJSyGkBb2rf"
+API_KEY = "APIkey"
+SECRET_KEY = "Secretkey"
 
 client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
 
